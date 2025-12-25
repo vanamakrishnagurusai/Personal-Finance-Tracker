@@ -34,4 +34,11 @@ li {
     margin: 5px 0;
     background-color: #e3f2fd;
     border-radius: 4px;
+body.dark {
+    background-color: #121212;
+    color: white;
+}
+
+.dark .container {
+    background-color: #1e1e1e;
 }
