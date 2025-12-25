@@ -27,3 +27,11 @@ button {
     border: none;
     cursor: pointer;
 }
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    margin: 5px 0;
+    background-color: #e3f2fd;
+    border-radius: 4px;
+}
