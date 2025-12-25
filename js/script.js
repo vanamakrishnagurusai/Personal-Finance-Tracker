@@ -18,6 +18,10 @@ function addTransaction(e) {
 
     text.value = "";
     amount.value = "";
+    if(text.value.trim()==="" || amount.value=== ""){
+       alert("please enter valid data");
+       return;
+    }
 }
 
 form.addEventListener("submit", addTransaction);
