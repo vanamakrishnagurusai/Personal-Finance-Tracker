@@ -22,3 +22,17 @@ function addTransaction(e) {
 
 form.addEventListener("submit", addTransaction);
 
+function updateUI() {
+    list.innerHTML = "";
+    let total = 0;
+
+    transactions.forEach(t => {
+        const li = document.createElement("li");
+        li.innerHTML = ;
+        list.appendChild(li);
+        total += t.amount;
+    });
+
+    balance.innerText = ;
+}
+
