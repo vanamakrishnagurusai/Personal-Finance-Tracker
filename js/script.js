@@ -36,3 +36,32 @@ function updateUI() {
     balance.innerText = ;
 }
 
+function saveTransactions() {
+    localStorage.setItem("transactions", JSON.stringify(transactions));
+}
+
+function loadTransactions() {
+    const data = localStorage.getItem("transactions");
+    if (data) {
+        transactions = JSON.parse(data);
+        updateUI();
+    }
+}
+
+function updateUI() {
+    list.innerHTML = "";
+    let total = 0;
+
+    transactions.forEach(t => {
+        const li = document.createElement("li");
+        li.innerHTML = ;
+        list.appendChild(li);
+        total += t.amount;
+    });
+
+    balance.innerText = ;
+    saveTransactions();
+}
+
+loadTransactions();
+
