@@ -27,8 +27,7 @@ The project was implemented using Git Bash and GitHub to demonstrate version con
 - git checkout
 - git merge
 - git push
-- git pull
-- git clone
+
 
 ## Branches Used
 - master (default branch)
