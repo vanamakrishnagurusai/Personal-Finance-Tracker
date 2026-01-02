@@ -39,7 +39,7 @@ The project was implemented using Git Bash and GitHub to demonstrate version con
 
 ## Branching and Merging
 Each feature and fix was developed in a separate branch. Merges were performed using Git Bash.
-A merge conflict was intentionally created in the README file and resolved manually.
+A merge conflict was intentionally created in the README file and resolved manually and an conflit was created in script.js was resolved manully and it was not intentionally created.
 
 ## Merge Conflict Resolution
 A conflict occurred when two branches modified the same line in the README file and style.css.
